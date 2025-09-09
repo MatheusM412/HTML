@@ -1,0 +1,28 @@
+body { background-color: skyblue;
+
+}
+
+.ggg {
+	color: orangered;
+
+}
+.ddv { 
+	width: 400px;
+	align-items: center;
+	display: flex;
+	border: 5px solid #333;
+	border-radius: 5px;
+	gap: 7px;
+	flex-direction: column;
+	margin: 0 auto;
+	justify-content: center;
+	background-color: black;
+
+}
+.vvv {
+    color: orangered;
+}
+button {
+	margin-bottom: 10px;
+
+}

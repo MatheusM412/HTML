@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Exercicio1</title>
+	<style>
+		body {
+			background-color: greenyellow;
+
+		}
+		.imagem { opacity: 0.9;
+			width: 500px;
+			object-fit: cover;
+
+		}
+		.btt {
+			position: absolute;
+			top: 58px;
+		}
+
+
+	</style>
+</head>
+<body>
+	<h1>MECÂNICA GLOBAL</h1>
+	<p>Aqui seu carro sai novo em folha</p>
+
+	<img class="imagem" src="img/mecanica.jpg">
+
+	<div class="btt">
+		<button onclick="dadosUser()"><strong>Pesquise</strong></strong>🔍</button>
+	</div>
+
+
+	<div><button onclick="catalogo()">Catalogo</button></div>
+
+
+	<h4><strong>Venha nos conhecer, fazer um teste conosco</strong></h4>
+		<a >
+	<script>
+		function dadosUser() {
+			alert("Para continuar sua pesquisa faça seu cadrastro.")
+		let nomeUser = prompt("Digite seu nome: ")
+		let teleUser = prompt("Digite seu telefone: ")
+		let ser = prompt("Qual seu email? ")
+
+		if (nomeUser=teleUser=ser) {
+			alert("Cadrastro realizado")
+
+		} else {
+		 
+			alert("Informações incopletas")
+	}
+
+		alert("Olá " + nomeUser + " seu telefone é " + teleUser + " e seu email é " +ser+ "você confirma?")
+	}  
+
+	
+	    function catalogo() {
+	    	window.open("https://www.mecanizou.com/")
+	    }
+
+
+	</script>
+
+</body>
+</html>
